@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 # */AIPND-revision/intropyproject-classify-pet-images/get_input_args_hints.py
 #                                                                             
-# PROGRAMMER: 
-# DATE CREATED:                                   
-# REVISED DATE: 
+# PROGRAMMER: Nguyen Van Au 
+# DATE CREATED: 30/03/2024                                  
+# REVISED DATE: 30/03/2024
 # PURPOSE: This is a *hints* file to help guide students in creating the 
 #          function that retrieves the following 3 command line inputs from
 #          the user using the Argparse Python module. If the user fails to 

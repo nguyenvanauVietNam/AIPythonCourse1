@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 # */AIPND-revision/intropyproject-classify-pet-images/classify_images_hints.py
 #                                                                             
-# PROGRAMMER: 
-# DATE CREATED:                                 
-# REVISED DATE: 
+# PROGRAMMER: Nguyen van Au
+# DATE CREATED:   30/03/2024                              
+# REVISED DATE:  30/03/2024
 # PURPOSE: This is a *hints* file to help guide students in creating the 
 #          function classify_images that uses the classifier function 
 #          to create the classifier labels and then compares the classifier 
