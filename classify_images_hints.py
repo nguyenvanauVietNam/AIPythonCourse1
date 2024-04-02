@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 # */AIPND-revision/intropyproject-classify-pet-images/classify_images_hints.py
 #                                                                             
-# PROGRAMMER: Nguyen van Au
-# DATE CREATED:   30/03/2024                              
-# REVISED DATE:  30/03/2024
+# PROGRAMMER: 
+# DATE CREATED:                                 
+# REVISED DATE: 
 # PURPOSE: This is a *hints* file to help guide students in creating the 
 #          function classify_images that uses the classifier function 
 #          to create the classifier labels and then compares the classifier 
@@ -94,8 +94,8 @@ def classify_images(images_dir, results_dic, model):
        # defines truth as pet image label 
        truth = results_dic[key][0]
 
-       # TODO: 3c. REPLACE pass BELOW with CODE that uses the extend    list function
-    #           to add the classifier label (model_label) and the value of
+       # TODO: 3c. REPLACE pass BELOW with CODE that uses the extend list function
+       #           to add the classifier label (model_label) and the value of
        #           1 (where the value of 1 indicates a match between pet image 
        #           label and the classifier label) to the results_dic dictionary
        #           for the key indicated by the variable key 
