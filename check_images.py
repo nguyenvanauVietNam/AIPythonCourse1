@@ -3,8 +3,8 @@
 # */AIPND-revision/intropyproject-classify-pet-images/check_images.py
 #
 # TODO 0: Add your information below for Programmer & Date Created.                                                                             
-# PROGRAMMER: 
-# DATE CREATED:                                  
+# PROGRAMMER:  Nguyen Van Au
+# DATE CREATED: 2024/04/03                                 
 # REVISED DATE: 
 # PURPOSE: Classifies pet images using a pretrained CNN model, compares these
 #          classifications to the true identity of the pets in the images, and
@@ -88,7 +88,7 @@ def main():
     # Adjusts the results dictionary to determine if classifier correctly 
     # classified images as 'a dog' or 'not a dog'. This demonstrates if 
     # model can correctly classify dog images as dogs (regardless of breed)
-   adjust_results4_isadog(results, in_arg.dogfile)
+    adjust_results4_isadog(results, in_arg.dogfile)
 
     # Function that checks Results Dictionary for is-a-dog adjustment using results
     check_classifying_labels_as_dogs(results)
@@ -100,7 +100,7 @@ def main():
     # dictionary is returned from the function call as the variable results_stats    
     # Calculates results of run and puts statistics in the Results Statistics
     # Dictionary - called results_stats
-   results_stats = calculates_results_stats(results)
+    results_stats = calculates_results_stats(results)
 
     # Function that checks Results Statistics Dictionary using results_stats
     print_results(results, results_stats, in_arg.arch, True, True)
@@ -118,15 +118,12 @@ def main():
     # TODO 0: Measure total program runtime by collecting end time
     end_time = time() 
     tot_time = end_time - start_time
-print("\n** Total Elapsed Runtime:",
+    print("\n** Total Elapsed Runtime:",
       str(int((tot_time/3600)))+":"+str(int((tot_time%3600)/60))+":"
       +str(int((tot_time%3600)%60)) )
-    # TODO 0: Computes overall runtime in seconds & prints it in hh:mm:ss format
-    tot_time = #calculate difference between end time and start time
     print("\n** Total Elapsed Runtime:",
-          str(int((tot_time/3600)))+":"+str(int((tot_time%3600)/60))+":"
-          +str(int((tot_time%3600)%60)) )
-    
+      str(int((tot_time/3600)))+":"+str(int((tot_time%3600)/60))+":"
+      +str(int((tot_time%3600)%60)) )
 
 # Call to main function to run the program
 if __name__ == "__main__":
